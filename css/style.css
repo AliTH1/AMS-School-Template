@@ -207,6 +207,214 @@
     padding: 8px 24px;
 }
 
+.bottom-content{
+    width: 100%;
+    min-height: 150px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottom-head-text{
+    width: 50%;
+    min-height: 40px;
+    float: left;
+    font-size: 30px;
+}
+
+.bottom-text{
+    width: 70%;
+    min-height: 20px;
+    float: left;
+    text-align: center;
+}
+
+.afooter{
+    min-height: 260px;
+    margin-top: 10px;
+}
+
+.element-1{
+    width: 95%;
+    min-height: 220px;
+    border-radius: 5%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #26ba5a;
+}
+
+.element-1-icon{
+    width: 20%;
+    min-height: 50px;
+    border-radius: 30px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -25px;
+    background-color: rgb(243, 243, 243);
+}
+
+.element-1-text-1{
+    width: 100%;
+    min-height: 20px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.element-1-text-2{
+    width: 100%;
+    min-height: 120px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+
+
+.element-2{
+    width: 95%;
+    min-height: 220px;
+    border-radius: 5%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #26ba5a;
+}
+
+.element-2-icon{
+    width: 20%;
+    min-height: 50px;
+    border-radius: 30px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -25px;
+    background-color: rgb(243, 243, 243);
+}
+
+.element-2-text-1{
+    width: 100%;
+    min-height: 20px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.element-2-text-2{
+    width: 100%;
+    min-height: 120px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+
+.element-3{
+    width: 95%;
+    min-height: 220px;
+    border-radius: 5%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #26ba5a;
+}
+
+.element-3-icon{
+    width: 20%;
+    min-height: 50px;
+    border-radius: 30px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -25px;
+    background-color: rgb(243, 243, 243);
+}
+
+.element-3-text-1{
+    width: 100%;
+    min-height: 20px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.element-3-text-2{
+    width: 100%;
+    min-height: 120px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+
+.element-4{
+    width: 95%;
+    min-height: 220px;
+    border-radius: 5%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #26ba5a;
+}
+
+.element-4-icon{
+    width: 20%;
+    min-height: 50px;
+    border-radius: 30px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -25px;
+    background-color: rgb(243, 243, 243);
+}
+
+.element-4-text-1{
+    width: 100%;
+    min-height: 20px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.element-4-text-2{
+    width: 100%;
+    min-height: 120px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+
+
 
 @media only screen and (max-width: 768px){
     .ul-navbar, .anavbar-header{
@@ -217,5 +425,29 @@
 
     .contact-info{
         margin-left: 10px;
+    }
+
+    .bottom-content{
+        margin-top: 20px;
+    }
+
+    .element-4-icon{
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .element-3, .element-4{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .afooter{
+        margin-top: 40px;
+    }
+
+    .element-1-text-1, .element-2-text-1, .element-3-text-1, .element-4-text-1{
+        margin-top: 30px;
     }
 }
