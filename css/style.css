@@ -1,27 +1,27 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-.ahead{
+.ahead {
     min-height: 40px;
     background-color: rgb(2, 2, 57);
 }
 
-.contact-info{
+.contact-info {
     width: 50%;
     min-height: 40px;
     float: left;
 }
 
-.website{
-    width: 40%;
+.website {
+    width: fit-content;
     min-height: 40px;
     float: left;
     display: flex;
     align-items: center;
 }
 
-.website-link a{
+.website-link a {
     width: 100px;
     min-height: 20px;
     margin-left: 5px;
@@ -29,7 +29,7 @@
     color: white;
 }
 
-.line{
+.line {
     width: 2px;
     min-height: 15px;
     margin-left: 10px;
@@ -37,8 +37,8 @@
     background-color: white;
 }
 
-.mail-icon{
-    width: 40px;
+.mail-icon {
+    width: fit-content;
     min-height: 40px;
     float: left;
     display: flex;
@@ -47,7 +47,7 @@
     color: green;
 }
 
-.phone{
+.phone {
     width: 250px;
     min-height: 40px;
     /* margin-left: 10px; */
@@ -56,7 +56,7 @@
     align-items: center;
 }
 
-.phone-icon{
+.phone-icon {
     width: 20px;
     min-height: 40px;
     display: flex;
@@ -65,20 +65,20 @@
     color: green;
 }
 
-.phone-number{
+.phone-number {
     width: 150px;
     min-height: 20px;
     float: left;
     color: white;
 }
 
-.social-media{
-    width: 15%;
+.social-media {
+    width: fit-content;
     min-height: 40px;
     float: left;
 }
 
-.facebook{
+.facebook {
     width: 30px;
     min-height: 40px;
     float: left;
@@ -87,12 +87,12 @@
     justify-content: center;
 }
 
-.facebook a{
+.facebook a {
     color: white;
 }
 
 
-.twitter{
+.twitter {
     width: 30px;
     min-height: 40px;
     float: left;
@@ -101,12 +101,12 @@
     justify-content: center;
 }
 
-.twitter a{
+.twitter a {
     color: white;
 }
 
 
-.linkedin{
+.linkedin {
     width: 30px;
     min-height: 40px;
     float: left;
@@ -115,12 +115,12 @@
     justify-content: center;
 }
 
-.linkedin a{
+.linkedin a {
     color: white;
 }
 
 
-.instagram{
+.instagram {
     width: 30px;
     min-height: 40px;
     float: left;
@@ -129,21 +129,29 @@
     justify-content: center;
 }
 
-.instagram a{
+.instagram a {
     color: white;
     margin-top: 2px;
 }
 
-.navbar{
+.navbar {
     margin-bottom: 0px;
 }
 
-.anavbar-header a{
+.alogo {
     color: black;
 }
 
-.ul-navbar li a{
+.anavbar-header a {
     color: black;
+}
+
+.aul-navbar li a {
+    color: black;
+}
+
+.acollapse-button span{
+    background-color: black;
 }
 
 .button {
@@ -152,9 +160,9 @@
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-  }
+}
 
-.login-or-signup{
+.login-or-signup {
     width: 150px;
     height: 30px;
     margin-top: 10px;
@@ -166,7 +174,7 @@
 
 
 
-.main-content{
+.main-content {
     width: 100%;
     min-height: 350px;
     float: left;
@@ -174,27 +182,27 @@
     background-size: cover;
 }
 
-.acontent{
+.acontent {
     width: 40%;
     min-height: 200px;
     margin: 50px 0px 0px 90px;
     float: left;
 }
 
-.acontent-head-text{
+.acontent-head-text {
     width: 100%;
     min-height: 80px;
     float: left;
     font-size: 36px;
 }
 
-.acontent-text{
+.acontent-text {
     width: 100%;
     min-height: 60px;
     float: left;
 }
 
-.acontent-buttons{
+.acontent-buttons {
     width: 100%;
     height: 60px;
     float: left;
@@ -202,12 +210,12 @@
     align-items: flex-end;
 }
 
-.apply-online-button{
-    background-color:rgb(19, 196, 19);
+.apply-online-button {
+    background-color: rgb(19, 196, 19);
     padding: 8px 24px;
 }
 
-.bottom-content{
+.bottom-content {
     width: 100%;
     min-height: 150px;
     float: left;
@@ -218,26 +226,26 @@
     text-align: center;
 }
 
-.bottom-head-text{
+.bottom-head-text {
     width: 50%;
     min-height: 40px;
     float: left;
     font-size: 30px;
 }
 
-.bottom-text{
+.bottom-text {
     width: 70%;
     min-height: 20px;
     float: left;
     text-align: center;
 }
 
-.afooter{
+.afooter {
     min-height: 260px;
     margin-top: 10px;
 }
 
-.element-1{
+.element-1 {
     width: 95%;
     min-height: 220px;
     border-radius: 5%;
@@ -250,7 +258,7 @@
     background-color: #26ba5a;
 }
 
-.element-1-icon{
+.element-1-icon {
     width: 20%;
     min-height: 50px;
     border-radius: 30px;
@@ -263,7 +271,7 @@
     background-color: rgb(243, 243, 243);
 }
 
-.element-1-text-1{
+.element-1-text-1 {
     width: 100%;
     min-height: 20px;
     font-size: 20px;
@@ -272,7 +280,7 @@
     color: white;
 }
 
-.element-1-text-2{
+.element-1-text-2 {
     width: 100%;
     min-height: 120px;
     float: left;
@@ -282,7 +290,7 @@
 
 
 
-.element-2{
+.element-2 {
     width: 95%;
     min-height: 220px;
     border-radius: 5%;
@@ -295,7 +303,7 @@
     background-color: #26ba5a;
 }
 
-.element-2-icon{
+.element-2-icon {
     width: 20%;
     min-height: 50px;
     border-radius: 30px;
@@ -308,7 +316,7 @@
     background-color: rgb(243, 243, 243);
 }
 
-.element-2-text-1{
+.element-2-text-1 {
     width: 100%;
     min-height: 20px;
     font-size: 20px;
@@ -317,7 +325,7 @@
     color: white;
 }
 
-.element-2-text-2{
+.element-2-text-2 {
     width: 100%;
     min-height: 120px;
     float: left;
@@ -326,7 +334,7 @@
 }
 
 
-.element-3{
+.element-3 {
     width: 95%;
     min-height: 220px;
     border-radius: 5%;
@@ -339,7 +347,7 @@
     background-color: #26ba5a;
 }
 
-.element-3-icon{
+.element-3-icon {
     width: 20%;
     min-height: 50px;
     border-radius: 30px;
@@ -352,7 +360,7 @@
     background-color: rgb(243, 243, 243);
 }
 
-.element-3-text-1{
+.element-3-text-1 {
     width: 100%;
     min-height: 20px;
     font-size: 20px;
@@ -361,7 +369,7 @@
     color: white;
 }
 
-.element-3-text-2{
+.element-3-text-2 {
     width: 100%;
     min-height: 120px;
     float: left;
@@ -370,7 +378,7 @@
 }
 
 
-.element-4{
+.element-4 {
     width: 95%;
     min-height: 220px;
     border-radius: 5%;
@@ -383,7 +391,7 @@
     background-color: #26ba5a;
 }
 
-.element-4-icon{
+.element-4-icon {
     width: 20%;
     min-height: 50px;
     border-radius: 30px;
@@ -396,7 +404,7 @@
     background-color: rgb(243, 243, 243);
 }
 
-.element-4-text-1{
+.element-4-text-1 {
     width: 100%;
     min-height: 20px;
     font-size: 20px;
@@ -405,7 +413,7 @@
     color: white;
 }
 
-.element-4-text-2{
+.element-4-text-2 {
     width: 100%;
     min-height: 120px;
     float: left;
@@ -416,38 +424,59 @@
 
 
 
-@media only screen and (max-width: 768px){
-    .ul-navbar, .anavbar-header{
+@media only screen and (min-width: 990px) {
+    .ul-navbar,
+    .anavbar-header {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .contact-info{
+    .contact-info {
         margin-left: 10px;
     }
 
-    .bottom-content{
+    .bottom-content {
         margin-top: 20px;
     }
 
-    .element-4-icon{
+    .element-4-icon {
         width: 25%;
     }
-}
 
-@media only screen and (max-width: 990px){
-    .element-3, .element-4{
-        margin-top: 40px;
+    .phone{
+        margin-left: 10px;
     }
 }
 
-@media only screen and (max-width: 1200px){
-    .afooter{
+@media only screen and (max-width: 990px) {
+    .element-3,
+    .element-4 {
         margin-top: 40px;
     }
 
-    .element-1-text-1, .element-2-text-1, .element-3-text-1, .element-4-text-1{
+    .line{
+        display: none;
+    }
+
+    .website{
+        margin-left: 10px;
+    }
+
+    .phone-icon{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .afooter {
+        margin-top: 40px;
+    }
+
+    .element-1-text-1,
+    .element-2-text-1,
+    .element-3-text-1,
+    .element-4-text-1 {
         margin-top: 30px;
     }
 }
